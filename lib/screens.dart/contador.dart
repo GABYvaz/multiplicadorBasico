@@ -148,7 +148,7 @@ class CustomFloatingActionButton extends StatelessWidget {
            child: const Icon(Icons.read_more),
            ),
             FloatingActionButton( //Widget y propiedad del boton
-         onPressed:() => increasecontador2(),
+         onPressed:() => decreasecontador2(),
            backgroundColor: const Color.fromARGB(255, 250, 15, 191),
            foregroundColor: const Color.fromARGB(255, 237, 152, 185),
            child: const Icon(Icons.exposure_minus_1),
